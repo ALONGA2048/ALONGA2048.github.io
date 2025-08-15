@@ -152,14 +152,15 @@
 
     <!-- Main Content -->
     <!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
-<header class="intro-header" 
+<header class="intro-header"
      
         style="position: relative; overflow: hidden;" 
      >
 
     
-        <video id="bg-video" muted autoplay loop playsinline webkit-playsinline>
+        <!-- 背景影片，加入 poster 圖片做為手機不播時的替代 -->
+        <video id="bg-video" muted autoplay loop playsinline webkit-playsinline
+               poster="/null">
             <source src="/video/asuka.mp4" type="video/mp4">
         </video>
     
@@ -239,7 +240,6 @@
 </div>
 <hr>
             
-
             <ul class="pager">
     
     
@@ -248,6 +248,21 @@
     </div>
 </div>
 
+<!-- 強制啟播腳本，避免手機阻擋 -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('bg-video');
+    if (video) {
+        var playPromise = video.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(function() {
+                video.muted = true;
+                video.play().catch(function(){});
+            });
+        }
+    }
+});
+</script>
 
 
     <!-- Footer -->
