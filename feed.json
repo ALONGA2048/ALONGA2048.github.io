@@ -1,0 +1,47 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": " ",
+    "subtitle": "一個隨心分享的小天地",
+    "icon": "https://alonga2048.github.io/assets/favicon.ico",
+    "description": "一個想法很多，卻又很懶的人，不定時更新所見所聞的地方。",
+    "home_page_url": "https://alonga2048.github.io",
+    "items": [
+        {
+            "id": "https://alonga2048.github.io/2025/08/15/RHCSA_exp/",
+            "url": "https://alonga2048.github.io/2025/08/15/RHCSA_exp/",
+            "title": "RHCSA200 考試心得",
+            "date_published": "2025-08-15T02:00:00.000Z",
+            "content_html": "<h2 id=\"考試動機\"><a class=\"anchor\" href=\"#考試動機\">#</a> 考試動機</h2>\n<p>在參加學校選修的課程有一定的基礎後決定順便考取這個證書</p>\n<hr />\n<h2 id=\"報名與考試流程\"><a class=\"anchor\" href=\"#報名與考試流程\">#</a> 報名與考試流程</h2>\n<p>參加 RECSA200 考試的方式有兩種：</p>\n<ol>\n<li><strong>在家遠端考試</strong> → 需自備有線滑鼠,攝像頭,usb</li>\n<li><strong>直接去他們的指定定點考試</strong> → 台灣只有台北有(但就帶證件就好不需其他東西)</li>\n</ol>\n<p>而考試卷的購買流程可以參考</p>\n<p><a href=\"https://blog.ty-wu.com/posts/redhatexam/#%E5%A0%B1%E5%90%8D%E7%B9%B3%E8%B2%BB\">考試卷購買流程(來自:想吃地瓜酥的藍熊)</a></p>\n<p>在預約考試流程那邊選擇你想要遠端還是去指定地方就好了<br />\n下面就只介紹在家遠端考試的流程(指定地點其實就是聯成電腦,他們提供所有東西)</p>\n<h3 id=\"在家遠端考試\"><a class=\"anchor\" href=\"#在家遠端考試\">#</a> 在家遠端考試</h3>\n<p><a href=\"https://learn.redhat.com/t5/Certification-Resources/Getting-Ready-for-your-Red-Hat-Certification-Remote-Exam/ba-p/33528?attachment-id=125\">安裝考試環境流程</a></p>\n<ol>\n<li>在確定考試後會收到email說明考試環境的安裝方式跟規則</li>\n<li>跟著步驟,先下載考試用iso檔案,並按照影片選擇適用的方式將iso檔案燒入usb</li>\n<li>依照每個電腦不同,切換到開機選單選擇用usb磁碟(有些電腦可能要先去關掉安全開機)<br />\n使用windows11的人要小心(在切換安全開機後)要是你的使用者有綁微軟帳號,他可能會封鎖pin碼要求你登入重設密碼</li>\n<li>在考試前可以先進入考試環境檢查環境設備是否符合要求</li>\n<li>在考前10分鐘先進入考試跟考官做身分,環境檢查</li>\n</ol>\n<p>P.S. 注意環境要求攝像頭,有線滑鼠</p>\n<hr />\n<h2 id=\"考試資訊與評分標準\"><a class=\"anchor\" href=\"#考試資訊與評分標準\">#</a> 考試資訊與評分標準</h2>\n<ul>\n<li><strong>題型</strong>：多個電腦設定要求</li>\n<li><strong>通過分數</strong>：70%（210/300）分</li>\n<li><strong>時間限制</strong>：180分鐘</li>\n<li><strong>內容範圍</strong>：<a href=\"https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam\">官方證照資訊</a></li>\n</ul>\n<hr />\n<h2 id=\"考試準備方法\"><a class=\"anchor\" href=\"#考試準備方法\">#</a> 考試準備方法</h2>\n<h3 id=\"1-直接上他們的官方教材rh124rh199\"><a class=\"anchor\" href=\"#1-直接上他們的官方教材rh124rh199\">#</a> 1. 直接上他們的官方教材RH124.RH199</h3>\n<p>他們有提供完整的教材教學跟模擬機環境提供你練習</p>\n<hr />\n<h3 id=\"2-參考書籍與考古題\"><a class=\"anchor\" href=\"#2-參考書籍與考古題\">#</a> 2. 參考書籍與考古題</h3>\n<ul>\n<li><a href=\"https://www.youtube.com/@FatLinuxGuy\">我常看的linux教學頻道</a></li>\n<li><a href=\"https://www.tenlong.com.tw/products/9787302631224\">推薦書籍</a></li>\n</ul>\n<p>基本上我是透過學校的教材及課堂練習,並練習了許多題目(不懂跟較少的觀念會找youtube跟網路文章學習)這張證照考驗你掌握linux功能的熟練度,建議是直接買教材學習才不會學太亂太雜,畢竟也有許多版本跟系統不同的差別</p>\n<hr />\n<h2 id=\"總結與心得\"><a class=\"anchor\" href=\"#總結與心得\">#</a> 總結與心得</h2>\n<ul>\n<li>熟悉 linux 的系統操作</li>\n<li>多做考古題，理解每題為什麼對或錯</li>\n<li>架個虛擬機模擬linux的操作來熟練他</li>\n</ul>\n<hr />\n",
+            "tags": [
+                "證照心得",
+                "RHCSA",
+                "證照"
+            ]
+        },
+        {
+            "id": "https://alonga2048.github.io/2025/08/15/npm_prob/",
+            "url": "https://alonga2048.github.io/2025/08/15/npm_prob/",
+            "title": "安裝hexo及nodejs問題",
+            "date_published": "2025-08-15T02:00:00.000Z",
+            "content_html": "<h3 id=\"nodejs與hexo安裝問題\"><a class=\"anchor\" href=\"#nodejs與hexo安裝問題\">#</a> nodejs與hexo安裝問題</h3>\n<p><code>在安裝完nodejs軟體後要先建立路徑以使指令可被找到</code></p>\n<ol>\n<li>\n<p>先去系統中的環境變數設定</p>\n</li>\n<li>\n<p>在本機設定的path中新增<code>C:\\Program Files\\nodejs\\</code></p>\n</li>\n<li>\n<p>儲存後重開機並在cmd中輸入<code>npm -v</code> 要顯示出你安裝的版本號</p>\n</li>\n<li>\n<p>安裝hexo則在終端機中輸入<code>npm install hexo-cli -g</code> 以安裝hexo全域指令與工具</p>\n</li>\n<li>\n<p>在使用者設定的path中新增<code>C:\\Users\\newadmin\\AppData\\Roaming\\npm</code></p>\n</li>\n<li>\n<p>儲存後重開機並在cmd中輸入<code>hexo -v</code> 要顯示出你安裝的套件版本</p>\n</li>\n</ol>\n<hr />\n<h2 id=\"問題1powershell找不到npm指令\"><a class=\"anchor\" href=\"#問題1powershell找不到npm指令\">#</a> 問題1:powershell找不到npm指令</h2>\n<p><code>進行1-3步驟後以windows11來說發現cmd可以使用npm但powershell找不到</code></p>\n<p>-&gt; 發現是ps1檔案權限遮蔽的問題</p>\n<ul>\n<li>原因:</li>\n</ul>\n<p>-&gt; 因<code>C:\\Program Files\\nodejs</code>中包含npm.cmd,npm.ps1等檔案</p>\n<p>而ps1是powershell的設定檔案且因這種檔案會被預設擋住(Execution Policy)無法執行而直接報錯</p>\n<p>但這種檔案不是給cmd的(cmd讀不到)所以她不受影響</p>\n<ul>\n<li>\n<p>解法:</p>\n<ol>\n<li>\n<p>先以管理員權限開啟power shell 輸入<code>Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned</code>(可自動執行$profile設定黨)</p>\n</li>\n<li>\n<p>notepad $PROFILE 新增一個額外的系統設定檔</p>\n</li>\n<li>\n<p>內輸入<code>Set-Alias npm &quot;C:\\Program Files\\nodejs\\npm.cmd&quot; Set-Alias npx &quot;C:\\Program Files\\nodejs\\npx.cmd&quot;</code> 儲存</p>\n</li>\n<li>\n<p>關掉所有舊視窗重開測試<code>npm -v</code>是否有成功運作</p>\n</li>\n</ol>\n</li>\n</ul>\n<hr />\n",
+            "tags": [
+                "安裝問題",
+                "hexo",
+                "nodejs"
+            ]
+        },
+        {
+            "id": "https://alonga2048.github.io/2025/08/15/javaOcp_exp/",
+            "url": "https://alonga2048.github.io/2025/08/15/javaOcp_exp/",
+            "title": "Java OCP 1Z0-819 考照心得與準備方法",
+            "date_published": "2025-08-15T02:00:00.000Z",
+            "content_html": "<h2 id=\"考試動機\"><a class=\"anchor\" href=\"#考試動機\">#</a> 考試動機</h2>\n<p>在上完一系列巨匠提供的 <strong>Java 課程</strong> 後，除了巨匠主推這張 <strong>Oracle Certified Professional: Java SE 11 Developer (1Z0-819)</strong> 證照外，我也想藉此測驗自己的程式能力，因此決定準備並參加考試。</p>\n<hr />\n<h2 id=\"報名與考試流程\"><a class=\"anchor\" href=\"#報名與考試流程\">#</a> 報名與考試流程</h2>\n<p>參加 Java OCP 1Z0-819 考試的方式有兩種：</p>\n<ol>\n<li><strong>自行到 Oracle 官網購買考試卷</strong> → 再預約考場時間</li>\n<li><strong>到巨匠電腦現場報名</strong>（官方認證考試中心）→ 他們會手把手協助完成流程</li>\n</ol>\n<p>我選擇了巨匠的方式，流程如下：</p>\n<ol>\n<li>告知分校我要考的證照</li>\n<li>按照指定帳號匯款（考試卷 NT$ 7,350）</li>\n<li>在巨匠協助下註冊 Oracle 帳號，並將考試卷綁定到帳號\n<blockquote>\n<p><strong>建議</strong>：直接去巨匠處理，Oracle 官網流程偏複雜</p>\n</blockquote>\n</li>\n<li>與巨匠確認考試場次與時間</li>\n<li>到時間直接到考場應試</li>\n</ol>\n<hr />\n<h2 id=\"考試資訊與評分標準\"><a class=\"anchor\" href=\"#考試資訊與評分標準\">#</a> 考試資訊與評分標準</h2>\n<ul>\n<li><strong>題型</strong>：50 題選擇題</li>\n<li><strong>通過分數</strong>：68%（約 34 題正確）</li>\n<li><strong>時間限制</strong>：90 分鐘</li>\n<li><strong>內容範圍</strong>：<a href=\"https://education.oracle.com/java-se-11-developer/pexam_1Z0-819\">官方考試大綱</a></li>\n</ul>\n<p>題目變化不大，只要熟練考古題，通過率會大幅提升。</p>\n<hr />\n<h2 id=\"考試準備方法\"><a class=\"anchor\" href=\"#考試準備方法\">#</a> 考試準備方法</h2>\n<h3 id=\"打好-java-基礎-200-小時課程\"><a class=\"anchor\" href=\"#打好-java-基礎-200-小時課程\">#</a> 打好 Java 基礎 — 200 小時課程</h3>\n<p><a href=\"https://www.bilibili.com/video/BV18J411W7cE/\">黑馬程序員 Java 課程</a><br />\n這套免費課程從基礎語法到實作案例都有，適合打穩觀念。</p>\n<hr />\n<h3 id=\"參考書籍與考古題\"><a class=\"anchor\" href=\"#參考書籍與考古題\">#</a> 參考書籍與考古題</h3>\n<ul>\n<li><a href=\"https://www.books.com.tw/products/0010931431?srsltid=AfmBOoo84DfttwXarXYH9Bg0zm79mHW3EExtlTWJXbh-jYYpPwzZP3p7\">OCP：Java SE 11 Developer 認證指南（上）物件導向設計篇</a></li>\n<li><a href=\"https://www.books.com.tw/products/0010934577?loc=P_br_r0vq68ygz_D_2aabd0_B_1\">OCP：Java SE 11 Developer 認證指南（下）API 剖析運用篇</a></li>\n</ul>\n<p>書籍內容由淺入深，涵蓋 <strong>Java 核心觀念</strong> 與 <strong>API 應用</strong>，並附上 100 多題考古題。</p>\n<hr />\n<h3 id=\"自製練習題與筆記\"><a class=\"anchor\" href=\"#自製練習題與筆記\">#</a> 自製練習題與筆記</h3>\n<p><a href=\"https://github.com/ALONGA2048/JavaOcp\">GitHub - ocp 題目與筆記</a><br />\n這是我準備期間做的練習紀錄，包含一些自我測驗題。</p>\n<hr />\n<h2 id=\"總結與心得\"><a class=\"anchor\" href=\"#總結與心得\">#</a> 總結與心得</h2>\n<ul>\n<li>熟悉 Java 語法與物件導向觀念</li>\n<li>多做考古題，理解每題為什麼對或錯</li>\n<li>模擬考時控制時間，確保能在 90 分鐘內完成</li>\n</ul>\n<p>只要確實練習並掌握出題模式，相信你也能順利通過 <strong>Java OCP 1Z0-819</strong>！</p>\n<hr />\n",
+            "tags": [
+                "證照心得",
+                "證照",
+                "Java",
+                "OCP"
+            ]
+        }
+    ]
+}

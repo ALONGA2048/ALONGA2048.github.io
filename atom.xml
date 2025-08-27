@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://alonga2048.github.io</id>
+    <title> </title>
+    <subtitle>一個隨心分享的小天地</subtitle>
+    <icon>https://alonga2048.github.io/assets/favicon.ico</icon>
+    <link href="https://alonga2048.github.io" />
+    <author>
+      <name>ALONGA</name>
+    </author>
+    <updated>2025-08-15T02:00:00.000Z</updated>
+    <entry>
+        <id>https://alonga2048.github.io/2025/08/15/RHCSA_exp/</id>
+        <title>RHCSA200 考試心得</title>
+        <link rel="alternate" href="https://alonga2048.github.io/2025/08/15/RHCSA_exp/"/>
+        <content type="html">&lt;h2 id=&#34;考試動機&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考試動機&#34;&gt;#&lt;/a&gt; 考試動機&lt;/h2&gt;
+&lt;p&gt;在參加學校選修的課程有一定的基礎後決定順便考取這個證書&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;報名與考試流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#報名與考試流程&#34;&gt;#&lt;/a&gt; 報名與考試流程&lt;/h2&gt;
+&lt;p&gt;參加 RECSA200 考試的方式有兩種：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;在家遠端考試&lt;/strong&gt; → 需自備有線滑鼠,攝像頭,usb&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;直接去他們的指定定點考試&lt;/strong&gt; → 台灣只有台北有(但就帶證件就好不需其他東西)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;而考試卷的購買流程可以參考&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.ty-wu.com/posts/redhatexam/#%E5%A0%B1%E5%90%8D%E7%B9%B3%E8%B2%BB&#34;&gt;考試卷購買流程(來自:想吃地瓜酥的藍熊)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在預約考試流程那邊選擇你想要遠端還是去指定地方就好了&lt;br /&gt;
+下面就只介紹在家遠端考試的流程(指定地點其實就是聯成電腦,他們提供所有東西)&lt;/p&gt;
+&lt;h3 id=&#34;在家遠端考試&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在家遠端考試&#34;&gt;#&lt;/a&gt; 在家遠端考試&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.redhat.com/t5/Certification-Resources/Getting-Ready-for-your-Red-Hat-Certification-Remote-Exam/ba-p/33528?attachment-id=125&#34;&gt;安裝考試環境流程&lt;/a&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;在確定考試後會收到email說明考試環境的安裝方式跟規則&lt;/li&gt;
+&lt;li&gt;跟著步驟,先下載考試用iso檔案,並按照影片選擇適用的方式將iso檔案燒入usb&lt;/li&gt;
+&lt;li&gt;依照每個電腦不同,切換到開機選單選擇用usb磁碟(有些電腦可能要先去關掉安全開機)&lt;br /&gt;
+使用windows11的人要小心(在切換安全開機後)要是你的使用者有綁微軟帳號,他可能會封鎖pin碼要求你登入重設密碼&lt;/li&gt;
+&lt;li&gt;在考試前可以先進入考試環境檢查環境設備是否符合要求&lt;/li&gt;
+&lt;li&gt;在考前10分鐘先進入考試跟考官做身分,環境檢查&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;P.S. 注意環境要求攝像頭,有線滑鼠&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;考試資訊與評分標準&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考試資訊與評分標準&#34;&gt;#&lt;/a&gt; 考試資訊與評分標準&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;題型&lt;/strong&gt;：多個電腦設定要求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通過分數&lt;/strong&gt;：70%（210/300）分&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時間限制&lt;/strong&gt;：180分鐘&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;內容範圍&lt;/strong&gt;：&lt;a href=&#34;https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam&#34;&gt;官方證照資訊&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;考試準備方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考試準備方法&#34;&gt;#&lt;/a&gt; 考試準備方法&lt;/h2&gt;
+&lt;h3 id=&#34;1-直接上他們的官方教材rh124rh199&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-直接上他們的官方教材rh124rh199&#34;&gt;#&lt;/a&gt; 1. 直接上他們的官方教材RH124.RH199&lt;/h3&gt;
+&lt;p&gt;他們有提供完整的教材教學跟模擬機環境提供你練習&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;2-參考書籍與考古題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-參考書籍與考古題&#34;&gt;#&lt;/a&gt; 2. 參考書籍與考古題&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/@FatLinuxGuy&#34;&gt;我常看的linux教學頻道&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.tenlong.com.tw/products/9787302631224&#34;&gt;推薦書籍&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基本上我是透過學校的教材及課堂練習,並練習了許多題目(不懂跟較少的觀念會找youtube跟網路文章學習)這張證照考驗你掌握linux功能的熟練度,建議是直接買教材學習才不會學太亂太雜,畢竟也有許多版本跟系統不同的差別&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;總結與心得&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#總結與心得&#34;&gt;#&lt;/a&gt; 總結與心得&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;熟悉 linux 的系統操作&lt;/li&gt;
+&lt;li&gt;多做考古題，理解每題為什麼對或錯&lt;/li&gt;
+&lt;li&gt;架個虛擬機模擬linux的操作來熟練他&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+</content>
+        <category term="證照心得" scheme="https://alonga2048.github.io/categories/%E8%AD%89%E7%85%A7%E5%BF%83%E5%BE%97/" />
+        <category term="RHCSA" scheme="https://alonga2048.github.io/tags/RHCSA/" />
+        <category term="證照" scheme="https://alonga2048.github.io/tags/%E8%AD%89%E7%85%A7/" />
+        <updated>2025-08-15T02:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://alonga2048.github.io/2025/08/15/npm_prob/</id>
+        <title>安裝hexo及nodejs問題</title>
+        <link rel="alternate" href="https://alonga2048.github.io/2025/08/15/npm_prob/"/>
+        <content type="html">&lt;h3 id=&#34;nodejs與hexo安裝問題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nodejs與hexo安裝問題&#34;&gt;#&lt;/a&gt; nodejs與hexo安裝問題&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;在安裝完nodejs軟體後要先建立路徑以使指令可被找到&lt;/code&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;先去系統中的環境變數設定&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在本機設定的path中新增&lt;code&gt;C:\Program Files\nodejs\&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;儲存後重開機並在cmd中輸入&lt;code&gt;npm -v&lt;/code&gt; 要顯示出你安裝的版本號&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;安裝hexo則在終端機中輸入&lt;code&gt;npm install hexo-cli -g&lt;/code&gt; 以安裝hexo全域指令與工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;在使用者設定的path中新增&lt;code&gt;C:\Users\newadmin\AppData\Roaming\npm&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;儲存後重開機並在cmd中輸入&lt;code&gt;hexo -v&lt;/code&gt; 要顯示出你安裝的套件版本&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;問題1powershell找不到npm指令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#問題1powershell找不到npm指令&#34;&gt;#&lt;/a&gt; 問題1:powershell找不到npm指令&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;進行1-3步驟後以windows11來說發現cmd可以使用npm但powershell找不到&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;-&amp;gt; 發現是ps1檔案權限遮蔽的問題&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;原因:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&amp;gt; 因&lt;code&gt;C:\Program Files\nodejs&lt;/code&gt;中包含npm.cmd,npm.ps1等檔案&lt;/p&gt;
+&lt;p&gt;而ps1是powershell的設定檔案且因這種檔案會被預設擋住(Execution Policy)無法執行而直接報錯&lt;/p&gt;
+&lt;p&gt;但這種檔案不是給cmd的(cmd讀不到)所以她不受影響&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;解法:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;先以管理員權限開啟power shell 輸入&lt;code&gt;Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned&lt;/code&gt;(可自動執行$profile設定黨)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;notepad $PROFILE 新增一個額外的系統設定檔&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;內輸入&lt;code&gt;Set-Alias npm &amp;quot;C:\Program Files\nodejs\npm.cmd&amp;quot; Set-Alias npx &amp;quot;C:\Program Files\nodejs\npx.cmd&amp;quot;&lt;/code&gt; 儲存&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;關掉所有舊視窗重開測試&lt;code&gt;npm -v&lt;/code&gt;是否有成功運作&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+</content>
+        <category term="安裝問題" scheme="https://alonga2048.github.io/categories/%E5%AE%89%E8%A3%9D%E5%95%8F%E9%A1%8C/" />
+        <category term="hexo" scheme="https://alonga2048.github.io/tags/hexo/" />
+        <category term="nodejs" scheme="https://alonga2048.github.io/tags/nodejs/" />
+        <updated>2025-08-15T02:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://alonga2048.github.io/2025/08/15/javaOcp_exp/</id>
+        <title>Java OCP 1Z0-819 考照心得與準備方法</title>
+        <link rel="alternate" href="https://alonga2048.github.io/2025/08/15/javaOcp_exp/"/>
+        <content type="html">&lt;h2 id=&#34;考試動機&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考試動機&#34;&gt;#&lt;/a&gt; 考試動機&lt;/h2&gt;
+&lt;p&gt;在上完一系列巨匠提供的 &lt;strong&gt;Java 課程&lt;/strong&gt; 後，除了巨匠主推這張 &lt;strong&gt;Oracle Certified Professional: Java SE 11 Developer (1Z0-819)&lt;/strong&gt; 證照外，我也想藉此測驗自己的程式能力，因此決定準備並參加考試。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;報名與考試流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#報名與考試流程&#34;&gt;#&lt;/a&gt; 報名與考試流程&lt;/h2&gt;
+&lt;p&gt;參加 Java OCP 1Z0-819 考試的方式有兩種：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;自行到 Oracle 官網購買考試卷&lt;/strong&gt; → 再預約考場時間&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;到巨匠電腦現場報名&lt;/strong&gt;（官方認證考試中心）→ 他們會手把手協助完成流程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;我選擇了巨匠的方式，流程如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;告知分校我要考的證照&lt;/li&gt;
+&lt;li&gt;按照指定帳號匯款（考試卷 NT$ 7,350）&lt;/li&gt;
+&lt;li&gt;在巨匠協助下註冊 Oracle 帳號，並將考試卷綁定到帳號
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;建議&lt;/strong&gt;：直接去巨匠處理，Oracle 官網流程偏複雜&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;與巨匠確認考試場次與時間&lt;/li&gt;
+&lt;li&gt;到時間直接到考場應試&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;考試資訊與評分標準&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考試資訊與評分標準&#34;&gt;#&lt;/a&gt; 考試資訊與評分標準&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;題型&lt;/strong&gt;：50 題選擇題&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;通過分數&lt;/strong&gt;：68%（約 34 題正確）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;時間限制&lt;/strong&gt;：90 分鐘&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;內容範圍&lt;/strong&gt;：&lt;a href=&#34;https://education.oracle.com/java-se-11-developer/pexam_1Z0-819&#34;&gt;官方考試大綱&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;題目變化不大，只要熟練考古題，通過率會大幅提升。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;考試準備方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#考試準備方法&#34;&gt;#&lt;/a&gt; 考試準備方法&lt;/h2&gt;
+&lt;h3 id=&#34;打好-java-基礎-200-小時課程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#打好-java-基礎-200-小時課程&#34;&gt;#&lt;/a&gt; 打好 Java 基礎 — 200 小時課程&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV18J411W7cE/&#34;&gt;黑馬程序員 Java 課程&lt;/a&gt;&lt;br /&gt;
+這套免費課程從基礎語法到實作案例都有，適合打穩觀念。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;參考書籍與考古題&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#參考書籍與考古題&#34;&gt;#&lt;/a&gt; 參考書籍與考古題&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.books.com.tw/products/0010931431?srsltid=AfmBOoo84DfttwXarXYH9Bg0zm79mHW3EExtlTWJXbh-jYYpPwzZP3p7&#34;&gt;OCP：Java SE 11 Developer 認證指南（上）物件導向設計篇&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.books.com.tw/products/0010934577?loc=P_br_r0vq68ygz_D_2aabd0_B_1&#34;&gt;OCP：Java SE 11 Developer 認證指南（下）API 剖析運用篇&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;書籍內容由淺入深，涵蓋 &lt;strong&gt;Java 核心觀念&lt;/strong&gt; 與 &lt;strong&gt;API 應用&lt;/strong&gt;，並附上 100 多題考古題。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;自製練習題與筆記&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自製練習題與筆記&#34;&gt;#&lt;/a&gt; 自製練習題與筆記&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/ALONGA2048/JavaOcp&#34;&gt;GitHub - ocp 題目與筆記&lt;/a&gt;&lt;br /&gt;
+這是我準備期間做的練習紀錄，包含一些自我測驗題。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&#34;總結與心得&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#總結與心得&#34;&gt;#&lt;/a&gt; 總結與心得&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;熟悉 Java 語法與物件導向觀念&lt;/li&gt;
+&lt;li&gt;多做考古題，理解每題為什麼對或錯&lt;/li&gt;
+&lt;li&gt;模擬考時控制時間，確保能在 90 分鐘內完成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;只要確實練習並掌握出題模式，相信你也能順利通過 &lt;strong&gt;Java OCP 1Z0-819&lt;/strong&gt;！&lt;/p&gt;
+&lt;hr /&gt;
+</content>
+        <category term="證照心得" scheme="https://alonga2048.github.io/categories/%E8%AD%89%E7%85%A7%E5%BF%83%E5%BE%97/" />
+        <category term="證照" scheme="https://alonga2048.github.io/tags/%E8%AD%89%E7%85%A7/" />
+        <category term="Java" scheme="https://alonga2048.github.io/tags/Java/" />
+        <category term="OCP" scheme="https://alonga2048.github.io/tags/OCP/" />
+        <updated>2025-08-15T02:00:00.000Z</updated>
+    </entry>
+</feed>
